@@ -1,7 +1,6 @@
 package al_dente0.me.investplace.brokerage_account_position;
 
 import al_dente0.me.investplace.broker_account.BrokerAccount;
-import al_dente0.me.investplace.client.Client;
 import jakarta.persistence.*;
 
 @Entity

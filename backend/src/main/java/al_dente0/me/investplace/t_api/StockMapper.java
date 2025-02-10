@@ -9,6 +9,6 @@ import ru.tinkoff.piapi.contract.v1.Share;
 public interface StockMapper {
     StockMapper INSTANCE = Mappers.getMapper(StockMapper.class);
 
-    //@Mapping(target = "price", ignore = true) // Пока игнорируем цену
+    @Mapping(target = "price", ignore = true) // Пока игнорируем цену
     StockDto toDto(Share share);
 }
